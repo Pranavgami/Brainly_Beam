@@ -1,0 +1,14 @@
+<html>
+    <head></head>
+    <body>
+        <div style="text-align: center;">
+            <h2 >Signup</h2>
+            <form method='post'>
+                {% csrf_token %}
+                User : <input type="text" name="user" required><br>
+                password : <input type="password" name="pass" required><br>
+                <input type="submit">
+            </form>
+        </div>
+    </body>
+</html>
